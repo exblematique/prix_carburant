@@ -1,0 +1,3 @@
+python.exe %appdata%\Python\Python39\Scripts\cython.exe .\prix.py --embed -3
+cl.exe /Ox /MD /W3 /GS- /DNDEBUG -I"C:\Program Files\Python39\include" /I"C:\Program Files\Python39\PC" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt" /I"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.31.31103\include" /I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared" /Tcprix.c
+pause
